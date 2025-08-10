@@ -44,11 +44,11 @@ def listar_clientes():
 #  Cardapio de bebidas
 def mostrar_cardapio_bebidas():
     bebidas = {
-        'bb1': {'nome': 'Café Espresso', 'descricao': 'Concentrado e forte.', 'preco': 5.0},
-        'bb2': {'nome': 'Latte', 'descricao': 'Com leite vaporizado.', 'preco': 6.0},
-        'bb3': {'nome': 'Cappuccino', 'descricao': 'Espuma de leite espessa.', 'preco': 7.0},
-        'bb4': {'nome': 'Mocha', 'descricao': 'Com chocolate.', 'preco': 7.0},
-        'bb5': {'nome': 'Chá Gelado', 'descricao': 'Chá servido com gelo.', 'preco': 6.0},
+        'BE1': {'nome': 'Café Espresso', 'descricao': 'Concentrado e forte.', 'preco': 5.0},
+        'BE2': {'nome': 'Latte', 'descricao': 'Com leite vaporizado.', 'preco': 6.0},
+        'BE3': {'nome': 'Cappuccino', 'descricao': 'Espuma de leite espessa.', 'preco': 7.0},
+        'BE4': {'nome': 'Mocha', 'descricao': 'Com chocolate.', 'preco': 7.0},
+        'BE5': {'nome': 'Chá Gelado', 'descricao': 'Chá servido com gelo.', 'preco': 6.0},
     }
     print('\nCardápio - Bebidas:')
     for cod, item in bebidas.items():
@@ -58,11 +58,11 @@ def mostrar_cardapio_bebidas():
 # Cardapios de lanches
 def mostrar_cardapio_lanches():
     lanches = {
-        'lc1': {'nome': 'Pão de Queijo', 'descricao': 'Tradicional', 'preco': 3.0},
-        'lc2': {'nome': 'Coxinha', 'descricao': 'Frango e catupiry', 'preco': 4.0},
-        'lc3': {'nome': 'Quibe', 'descricao': 'De carne', 'preco': 3.5},
-        'lc4': {'nome': 'Empada', 'descricao': 'Frango', 'preco': 4.0},
-        'lc5': {'nome': 'Sanduíche Natural', 'descricao': 'Frango, alface, tomate', 'preco': 6.0},
+        'LC1': {'nome': 'Pão de Queijo', 'descricao': 'Tradicional', 'preco': 3.0},
+        'LC2': {'nome': 'Coxinha', 'descricao': 'Frango e catupiry', 'preco': 4.0},
+        'LC3': {'nome': 'Quibe', 'descricao': 'De carne', 'preco': 3.5},
+        'LC4': {'nome': 'Empada', 'descricao': 'Frango', 'preco': 4.0},
+        'LC5': {'nome': 'Sanduíche Natural', 'descricao': 'Frango, alface, tomate', 'preco': 6.0},
     }
     print('\nCardápio - Lanches:')
     for cod, item in lanches.items():
@@ -72,11 +72,11 @@ def mostrar_cardapio_lanches():
 # Cardapio de doces
 def mostrar_cardapio_doces():
     doces = {
-        'dc1': {'nome': 'Brigadeiro', 'descricao': 'Chocolate', 'preco': 3.0},
-        'dc2': {'nome': 'Bolo de Cenoura', 'descricao': 'Com cobertura de chocolate', 'preco': 4.0},
-        'dc3': {'nome': 'Brownie', 'descricao': 'Chocolate com nozes', 'preco': 5.0},
-        'dc4': {'nome': 'Donut', 'descricao': 'Recheado', 'preco': 5.0},
-        'dc5': {'nome': 'Torta de Limão', 'descricao': 'Com merengue', 'preco': 5.0},
+        'DC1': {'nome': 'Brigadeiro', 'descricao': 'Chocolate', 'preco': 3.0},
+        'DC2': {'nome': 'Bolo de Cenoura', 'descricao': 'Com cobertura de chocolate', 'preco': 4.0},
+        'DC3': {'nome': 'Brownie', 'descricao': 'Chocolate com nozes', 'preco': 5.0},
+        'DC4': {'nome': 'Donut', 'descricao': 'Recheado', 'preco': 5.0},
+        'DC5': {'nome': 'Torta de Limão', 'descricao': 'Com merengue', 'preco': 5.0},
     }
     print('\nCardápio - Doces:')
     for cod, item in doces.items():
